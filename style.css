@@ -15,6 +15,23 @@ body {
     font-family: 'Potta One', cursive;
     margin: 0;
 }
+body {
+  font-size: 16px;
+}
+
+/* Styles for tablets */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
 
 h1 {
     font-weight: normal;
